@@ -381,12 +381,11 @@ def init_game():
     ball = Ball(table_size, ball_size, paddle_bounce, wall_bounce, dust_error, init_speed_mag)
 
     
+    ## THIS IS WHERE THE CODE READS IN THE AI
+    import chaser_ai
     
-    
-    import chaser_ai, hidden.pong_ai as pong_ai, paddle, Luke_ai
-    
-    paddles[0].move_getter = chaser_ai.pong_ai
-    paddles[1].move_getter = pong_ai.pong_ai #directions_from_input #chaser_ai.pong_ai
+    paddles[0].move_getter = chaser_ai.pong_ai ## PLAYER 1 AI (LEFT)
+    paddles[1].move_getter =chaser_ai.pong_ai ## PLAYER 2 AI (RIGHT)
     
     game_loop(screen, paddles, ball, table_size, clock_rate, turn_wait_rate, score_to_win, 1)
     
