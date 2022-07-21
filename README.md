@@ -6,7 +6,7 @@
 ## Instructions:
 You have 30 minutes.
 
-1. Create a file <teamname>_ai.py
+1. Create a file ```<teamname>_ai.py```
 2. Write a function pong_ai(paddle_frect, other_paddle_frect, ball_frect, table_size) that will:
 ```
     Return "up" or "down", depending on which way the paddle should go to
