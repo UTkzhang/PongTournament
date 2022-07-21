@@ -1,7 +1,7 @@
 ## Setup:
-1. pipenv init
-2. pip install pygame
-3. python PongAIvAI.py to make sure it runs
+1. ```pipenv init```
+2. ```pip install pygame```
+3. ```python PongAIvAI.py``` to make sure it runs
 
 ## Instructions:
 1. Create a file <teamname>_ai.py
@@ -36,4 +36,4 @@
  y   v
 ```
     
-3. Test it by modifying line 387/388 in PongAIvAI.py and running python PongAIvAI.py
+3. Test it by modifying line 387/388 in PongAIvAI.py and running ```python PongAIvAI.py```
