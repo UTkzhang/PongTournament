@@ -37,3 +37,4 @@
 ```
     
 3. Test it by modifying line 387/388 in PongAIvAI.py and running ```python PongAIvAI.py```
+4. When satisfied, commit that python file directly to master (or get it PR approved by Cam). 
