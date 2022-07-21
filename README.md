@@ -4,6 +4,8 @@
 3. ```python PongAIvAI.py``` to make sure it runs
 
 ## Instructions:
+You have (30 minutes)
+
 1. Create a file <teamname>_ai.py
 2. Write a function pong_ai(paddle_frect, other_paddle_frect, ball_frect, table_size) that will:
 ```
