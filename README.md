@@ -1,5 +1,5 @@
 ## Setup:
-1. ```pipenv init```
+1. ```pipenv install```
 2. ```pip install pygame```
 3. ```python PongAIvAI.py``` to make sure it runs
 
