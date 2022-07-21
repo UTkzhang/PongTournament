@@ -40,3 +40,4 @@ You have 30 minutes.
     
 3. Test it by modifying line 387/388 in PongAIvAI.py and running ```python PongAIvAI.py```
 4. When satisfied, commit that python file directly to master (or get it PR approved by someone). 
+5. Tournament judging: Must be able to beat Chaser AI in game to 10. Winners judged by playing against chaser to 100, run in background. Highest point AI wins. 
