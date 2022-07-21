@@ -1,13 +1,13 @@
-##Setup:
+## Setup:
 1. pipenv init
 2. pip install pygame
 3. python PongAIvAI.py to make sure it runs
 
-##Instructions:
+## Instructions:
 1. Create a file <teamname>_ai.py
 2. Write a function pong_ai(paddle_frect, other_paddle_frect, ball_frect, table_size) that will:
-
-'''return "up" or "down", depending on which way the paddle should go to
+```
+    Return "up" or "down", depending on which way the paddle should go to
     align its centre with the centre of the ball, assuming the ball will
     not be moving
     
@@ -34,5 +34,6 @@
      |             
      |
  y   v
-    '''     
+```
+    
 3. Test it by modifying line 387/388 in PongAIvAI.py and running python PongAIvAI.py
